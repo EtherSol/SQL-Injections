@@ -1,3 +1,3 @@
 # SQL-Injections
 
-Practing with Injections
+Practicing with Injections
