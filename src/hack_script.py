@@ -1,5 +1,4 @@
-import mysql.connector 
-from database import users
+import database.sql
 from account_class import UserDatabase
 
 
@@ -11,7 +10,8 @@ account1 = "Account info with\n" + str(user)
 
 print(user[0])
 
-UserDatabase("127.0.0.1", username,password,users)
+acct = UserDatabase("127.0.0.1", username,password,database)
+print(acct)
 
 
 
